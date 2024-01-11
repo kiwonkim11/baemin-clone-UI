@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Standard</string>
+    <string name="title_activity_bmmain">BMMainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_order">주문내역</string>
+    <string name="title_jjim">찜</string>
+    <string name="title_search">검색</string>
+    <string name="title_mypage">my배민</string>
 </resources>

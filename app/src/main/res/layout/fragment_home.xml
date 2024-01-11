@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BaeMinMainActivity">
+    tools:context=".ui.home.HomeFragment">
 
     <View
         android:id="@+id/view1"
@@ -125,8 +125,8 @@
                 app:layout_constraintTop_toBottomOf="@id/iv_img1" />
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/ic_img2"
                 app:layout_constraintTop_toBottomOf="@id/iv_ad2"
                 app:layout_constraintStart_toStartOf="parent"
@@ -136,5 +136,6 @@
 
 
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

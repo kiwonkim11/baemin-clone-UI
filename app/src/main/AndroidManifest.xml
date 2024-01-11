@@ -13,6 +13,10 @@
         android:theme="@style/Theme.Standard"
         tools:targetApi="31">
         <activity
+            android:name=".BMMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bmmain" />
+        <activity
             android:name=".BaeMinMainActivity"
             android:exported="true">
             <intent-filter>
